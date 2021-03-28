@@ -1,0 +1,67 @@
+<div class="px-4 mx-auto mt-32 border-2 rounded-lg 4 border-box w-128">
+  <p-tabView>
+    <p-tabPanel header="用户">
+      <div class="p-4 mx-auto w-96">
+        <span class="p-float-label">
+          <input id="float-input" type="text" style="width: 100%" pInputText />
+          <label for="float-input">用户名</label>
+        </span>
+      </div>
+      <div class="p-4 mx-auto w-96">
+        <span class="p-float-label">
+          <input
+            style="width: 100%"
+            type="password"
+            pPassword
+            [feedback]="false"
+          />
+          <label for="float-input">密码</label>
+        </span>
+      </div>
+      <div class="mx-auto w-max">
+        <button
+          pButton
+          pRipple
+          type="button"
+          label="注册"
+          class="mx-4 p-button-outlined"
+        ></button>
+        <button
+          pButton
+          pRipple
+          type="button"
+          label="登陆"
+          class="mx-4 p-button-outlined"
+        ></button>
+      </div>
+    </p-tabPanel>
+    <p-tabPanel header="管理员">
+      <div class="p-4 mx-auto w-96">
+        <span class="p-float-label">
+          <input id="float-input" type="text" style="width: 100%" pInputText />
+          <label for="float-input">用户名</label>
+        </span>
+      </div>
+      <div class="p-4 mx-auto w-96">
+        <span class="p-float-label">
+          <input
+            style="width: 100%"
+            type="password"
+            pPassword
+            [feedback]="false"
+          />
+          <label for="float-input">密码</label>
+        </span>
+      </div>
+      <div class="mx-auto w-max">
+        <button
+          pButton
+          pRipple
+          type="button"
+          label="登陆"
+          class="mx-4 p-button-outlined"
+        ></button>
+      </div>
+    </p-tabPanel>
+  </p-tabView>
+</div>
